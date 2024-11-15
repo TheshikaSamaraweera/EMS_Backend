@@ -10,7 +10,7 @@ public class DepartmentMapper {
         return new DepartmentDto(
                 entity.getId(),
                 entity.getDepartmentName(),
-                entity.getDepartmentName()
+                entity.getDepartmentDescription()
 
         );
     }
@@ -20,7 +20,7 @@ public class DepartmentMapper {
         return new Department(
                 dto.getId(),
                 dto.getDepartmentName(),
-                dto.getDepartmentName()
+                dto.getDepartmentDescription()
         );
     }
 }
